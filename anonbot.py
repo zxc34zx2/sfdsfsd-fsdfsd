@@ -4,6 +4,10 @@ import sqlite3
 import re
 import random
 import string
+import os
+import sys
+from telegram import Update
+from telegram.ext import Application, CommandHandler, MessageHandler, filters
 from datetime import datetime
 from enum import Enum
 from typing import Optional, Tuple, Dict, Any
